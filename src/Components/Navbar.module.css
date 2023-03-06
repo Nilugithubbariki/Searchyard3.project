@@ -1,0 +1,103 @@
+.navbar {
+    /* display: flex;
+    justify-content: space-around;
+    margin:auto;
+    margin-top: 20px;
+    align-items:center;
+    padding: 10px;
+    width:100%;
+    height:50px;
+    background:black;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px; */
+    background-color: #0050b1;
+       margin:auto;
+       height:80px;
+        padding: 0px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+}
+.link{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.link:hover{
+    color:red;
+    text-decoration: none;
+}
+.user{
+    text-decoration: none;
+        color: whitesmoke;
+}
+.user:hover{
+    text-decoration: none;
+        color: whitesmoke;
+}
+.outcard {
+    padding: 25px;
+    margin:auto;
+    width: 30%;
+    box-shadow: 0 1px 2px 1px #ddd;
+    border-radius: 3px;
+
+}
+.card {
+    box-shadow: 0 1px 2px 1px #ddd;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+}
+
+.input {
+    width: 100%;
+    color: #444;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.btns {
+    background-color: #0050b1;
+    color: #fff;
+    width: 100%;
+    margin:auto;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.link {
+    text-decoration: solid;
+    color: #fff
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #89abd4;
+}
+
+.flex-btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: #0050b1
+}
+
+.auth{
+    
+    height:60px;
+    width:200px;
+}
